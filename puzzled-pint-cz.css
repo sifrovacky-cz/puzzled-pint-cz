@@ -5,16 +5,16 @@ body {
 }
 
 a {
-	color: #699FFF;
+	color: #0056ef;
 }
 
 header {
 	display: block;
 	width: 960px;
-	height: 250px;
+	height: 350px;
 	background-image: url("./assets/header_czech.png");
 	background-repeat: no-repeat;
-	background-size: auto 250px;
+	background-size: 960px auto;
 	background-position: center;
 }
 
@@ -44,4 +44,9 @@ section {
 	flex-flow: row;
 	justify-content: space-between;
 	margin-bottom: 20px;
+}
+
+#contact a img {
+    vertical-align: middle;
+    margin-right: 8px;
 }
