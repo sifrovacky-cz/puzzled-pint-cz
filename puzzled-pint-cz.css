@@ -1,0 +1,47 @@
+body {
+	max-width: 960px;
+	margin: auto;
+	font-family: Roboto, RobotoDraft, Helvetica, Arial, sans-serif;
+}
+
+a {
+	color: #699FFF;
+}
+
+header {
+	display: block;
+	width: 960px;
+	height: 250px;
+	background-image: url("./assets/header_czech.png");
+	background-repeat: no-repeat;
+	background-size: auto 250px;
+	background-position: center;
+}
+
+#langSwitch {
+	position: fixed;
+	right: 20px;
+	top: 10px;
+}
+
+section {
+	min-height: 100%;
+	padding-top: 10px;
+}
+
+.text {
+	display: flex;
+	flex-flow: column;
+	justify-content: space-between;
+}
+
+.hidden {
+	display: none;
+}
+
+#contact {
+	display: flex;
+	flex-flow: row;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
