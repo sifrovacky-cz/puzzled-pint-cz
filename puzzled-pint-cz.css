@@ -49,3 +49,7 @@ section {
     vertical-align: middle;
     margin-right: 8px;
 }
+
+iframe {
+	display:block;
+}
