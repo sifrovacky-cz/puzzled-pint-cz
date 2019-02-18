@@ -18,6 +18,14 @@ header {
 	background-position: center;
 }
 
+#header_brno {
+	background-image: url("./assets/header_brno.png");
+}
+
+#header_prague {
+	background-image: url("./assets/header_prague.png");
+}
+
 #langSwitch {
 	position: fixed;
 	right: 20px;
@@ -52,4 +60,33 @@ section {
 
 iframe {
 	display:block;
+}
+
+ul {
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
+.highlight {
+	background-color: #e2ffaa;
+	padding: 10px;
+}
+
+.highlight p:first-child {
+	margin-top: 0px;
+}
+
+#signup_text {
+	display: inline-block; 
+	float: left;
+	width: 65%; 
+}
+
+#signup_embed {
+	display: inline-block; 
+	width: 34%; 	
+}
+
+#signup_clear {
+	clear:both;
 }
